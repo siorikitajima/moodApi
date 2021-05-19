@@ -184,7 +184,7 @@ var twitterTask = cron.schedule('0,15,30,45 * * * * *', () => {
 });
 
 // 24 hours routine
-var summaryTask = cron.schedule('34 1 * * *', () => {
+var summaryTask = cron.schedule('0 1 * * *', () => {
   dairySummary();
 });
 
