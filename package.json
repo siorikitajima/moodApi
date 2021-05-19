@@ -1,0 +1,21 @@
+{
+  "name": "twitter-mood",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.6",
+    "node-cron": "^3.0.0",
+    "nodemon": "^2.0.7",
+    "socket.io": "^4.0.1",
+    "twit": "^2.2.11"
+  }
+}
