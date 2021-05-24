@@ -10,8 +10,8 @@ var MongoClient = require('mongodb').MongoClient;
 var keys = require('./keys');
 var routes = require('./routes/api');
 
-server.listen(process.env.PORT || 3000, function() {
-  console.log("Omar listning...");
+server.listen(3000, function() {
+  console.log("Omar listning at " + 3000 + " ...");
 });
 app.use(cors());
 app.use('/api', routes);
